@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA0D43E1B60DAC40099429C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA0D43D1B60DAC40099429C /* main.m */; };
+		8DA0D4411B60DAC40099429C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA0D4401B60DAC40099429C /* AppDelegate.m */; };
+		8DA0D4441B60DAC40099429C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA0D4431B60DAC40099429C /* ViewController.m */; };
+		8DA0D4471B60DAC40099429C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA0D4451B60DAC40099429C /* Main.storyboard */; };
+		8DA0D4491B60DAC40099429C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA0D4481B60DAC40099429C /* Images.xcassets */; };
+		8DA0D44C1B60DAC40099429C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DA0D44A1B60DAC40099429C /* LaunchScreen.xib */; };
+		8DA0D4581B60DAC40099429C /* FindBigestAreaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA0D4571B60DAC40099429C /* FindBigestAreaTests.m */; };
+		8DA0D4631B60DAFC0099429C /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA0D4621B60DAFC0099429C /* Matrix.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA0D4521B60DAC40099429C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA0D4301B60DAC40099429C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA0D4371B60DAC40099429C;
+			remoteInfo = FindBigestArea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DA0D4381B60DAC40099429C /* FindBigestArea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindBigestArea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA0D43C1B60DAC40099429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA0D43D1B60DAC40099429C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DA0D43F1B60DAC40099429C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DA0D4401B60DAC40099429C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DA0D4421B60DAC40099429C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DA0D4431B60DAC40099429C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DA0D4461B60DAC40099429C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA0D4481B60DAC40099429C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DA0D44B1B60DAC40099429C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DA0D4511B60DAC40099429C /* FindBigestAreaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindBigestAreaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA0D4561B60DAC40099429C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA0D4571B60DAC40099429C /* FindBigestAreaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindBigestAreaTests.m; sourceTree = "<group>"; };
+		8DA0D4611B60DAFC0099429C /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		8DA0D4621B60DAFC0099429C /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA0D4351B60DAC40099429C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA0D44E1B60DAC40099429C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA0D42F1B60DAC40099429C = {
+			isa = PBXGroup;
+			children = (
+				8DA0D43A1B60DAC40099429C /* FindBigestArea */,
+				8DA0D4541B60DAC40099429C /* FindBigestAreaTests */,
+				8DA0D4391B60DAC40099429C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA0D4391B60DAC40099429C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA0D4381B60DAC40099429C /* FindBigestArea.app */,
+				8DA0D4511B60DAC40099429C /* FindBigestAreaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA0D43A1B60DAC40099429C /* FindBigestArea */ = {
+			isa = PBXGroup;
+			children = (
+				8DA0D4611B60DAFC0099429C /* Matrix.h */,
+				8DA0D4621B60DAFC0099429C /* Matrix.m */,
+				8DA0D43F1B60DAC40099429C /* AppDelegate.h */,
+				8DA0D4401B60DAC40099429C /* AppDelegate.m */,
+				8DA0D4421B60DAC40099429C /* ViewController.h */,
+				8DA0D4431B60DAC40099429C /* ViewController.m */,
+				8DA0D4451B60DAC40099429C /* Main.storyboard */,
+				8DA0D4481B60DAC40099429C /* Images.xcassets */,
+				8DA0D44A1B60DAC40099429C /* LaunchScreen.xib */,
+				8DA0D43B1B60DAC40099429C /* Supporting Files */,
+			);
+			path = FindBigestArea;
+			sourceTree = "<group>";
+		};
+		8DA0D43B1B60DAC40099429C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DA0D43C1B60DAC40099429C /* Info.plist */,
+				8DA0D43D1B60DAC40099429C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DA0D4541B60DAC40099429C /* FindBigestAreaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA0D4571B60DAC40099429C /* FindBigestAreaTests.m */,
+				8DA0D4551B60DAC40099429C /* Supporting Files */,
+			);
+			path = FindBigestAreaTests;
+			sourceTree = "<group>";
+		};
+		8DA0D4551B60DAC40099429C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DA0D4561B60DAC40099429C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA0D4371B60DAC40099429C /* FindBigestArea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA0D45B1B60DAC40099429C /* Build configuration list for PBXNativeTarget "FindBigestArea" */;
+			buildPhases = (
+				8DA0D4341B60DAC40099429C /* Sources */,
+				8DA0D4351B60DAC40099429C /* Frameworks */,
+				8DA0D4361B60DAC40099429C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindBigestArea;
+			productName = FindBigestArea;
+			productReference = 8DA0D4381B60DAC40099429C /* FindBigestArea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA0D4501B60DAC40099429C /* FindBigestAreaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA0D45E1B60DAC40099429C /* Build configuration list for PBXNativeTarget "FindBigestAreaTests" */;
+			buildPhases = (
+				8DA0D44D1B60DAC40099429C /* Sources */,
+				8DA0D44E1B60DAC40099429C /* Frameworks */,
+				8DA0D44F1B60DAC40099429C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA0D4531B60DAC40099429C /* PBXTargetDependency */,
+			);
+			name = FindBigestAreaTests;
+			productName = FindBigestAreaTests;
+			productReference = 8DA0D4511B60DAC40099429C /* FindBigestAreaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA0D4301B60DAC40099429C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Teerapat;
+				TargetAttributes = {
+					8DA0D4371B60DAC40099429C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8DA0D4501B60DAC40099429C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8DA0D4371B60DAC40099429C;
+					};
+				};
+			};
+			buildConfigurationList = 8DA0D4331B60DAC40099429C /* Build configuration list for PBXProject "FindBigestArea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA0D42F1B60DAC40099429C;
+			productRefGroup = 8DA0D4391B60DAC40099429C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA0D4371B60DAC40099429C /* FindBigestArea */,
+				8DA0D4501B60DAC40099429C /* FindBigestAreaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA0D4361B60DAC40099429C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA0D4471B60DAC40099429C /* Main.storyboard in Resources */,
+				8DA0D44C1B60DAC40099429C /* LaunchScreen.xib in Resources */,
+				8DA0D4491B60DAC40099429C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA0D44F1B60DAC40099429C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA0D4341B60DAC40099429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA0D4631B60DAFC0099429C /* Matrix.m in Sources */,
+				8DA0D4441B60DAC40099429C /* ViewController.m in Sources */,
+				8DA0D4411B60DAC40099429C /* AppDelegate.m in Sources */,
+				8DA0D43E1B60DAC40099429C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA0D44D1B60DAC40099429C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA0D4581B60DAC40099429C /* FindBigestAreaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA0D4531B60DAC40099429C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA0D4371B60DAC40099429C /* FindBigestArea */;
+			targetProxy = 8DA0D4521B60DAC40099429C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA0D4451B60DAC40099429C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA0D4461B60DAC40099429C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA0D44A1B60DAC40099429C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA0D44B1B60DAC40099429C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA0D4591B60DAC40099429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA0D45A1B60DAC40099429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA0D45C1B60DAC40099429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindBigestArea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DA0D45D1B60DAC40099429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindBigestArea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DA0D45F1B60DAC40099429C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindBigestAreaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindBigestArea.app/FindBigestArea";
+			};
+			name = Debug;
+		};
+		8DA0D4601B60DAC40099429C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindBigestAreaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindBigestArea.app/FindBigestArea";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA0D4331B60DAC40099429C /* Build configuration list for PBXProject "FindBigestArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA0D4591B60DAC40099429C /* Debug */,
+				8DA0D45A1B60DAC40099429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA0D45B1B60DAC40099429C /* Build configuration list for PBXNativeTarget "FindBigestArea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA0D45C1B60DAC40099429C /* Debug */,
+				8DA0D45D1B60DAC40099429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DA0D45E1B60DAC40099429C /* Build configuration list for PBXNativeTarget "FindBigestAreaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA0D45F1B60DAC40099429C /* Debug */,
+				8DA0D4601B60DAC40099429C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA0D4301B60DAC40099429C /* Project object */;
+}
